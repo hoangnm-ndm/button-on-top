@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+html,
+body {
+  transition: all ease-in-out 0.5s;
+}
+
+#btnOnTop {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: #ccc 1px solid;
+  outline: none;
+  background-color: #fff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  color: white;
+  cursor: pointer;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  color: #000;
+  transition: all ease 0.3s;
+}
+
+#btnOnTop:hover {
+  background-color: rgb(5, 230, 87);
+}
